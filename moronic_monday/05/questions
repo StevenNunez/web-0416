@@ -1,0 +1,46 @@
+* Would you mind going over partials a bit more?
+
+* When using the "redirect_to songs_url" that is part the method destroy in the controller. Where does the songs_url redirect us to?
+
+* Can you explain the 'before_action' thing?
+
+* Please discuss "environments" (test, development, etc.) I have no idea what's going on when I'm asked to migrate in a particular environment, or when environments are specified in Gemfiles.
+
+* What is the syntax for putting two validations on one line (like if you are validating the presence and unqiueness of a name -- can you put both on one line or do they have to be on two lines?)
+
+* what are some common command line rails prompts that we should know?
+
+* Lessons were pretty clear on the pros/cons of generating scaffolds, but could you expand on the use cases for the other generators? When would we not want to use generators that aren't scaffolds?
+
+* What is <%= params.inspect %> and how do I know when to use it?
+
+* Do all error messages comprise of this syntax. <%if@article.errors.any?%> <div id="error_explanation"> <%= pluralize(@article.errors.count, "error") .....
+
+* I've been relying, perhaps too much, on the 'unless' conditional, especially  with validations ... am I a bad programmer?
+
+* Callbacks seem awesome, but they are applied at critical DB moments in the program. How should we go about deciding which one to use when?
+
+* Why do some of our labs have the “create migration” rake tasks, and others do not? Is that not a standard db rake task?
+
+* Advantage of using a validation class over private method within the model for custom validations?
+
+* Params are one of my new favorite things. But why don't parent object IDs get automatically passed with child object IDs in the form params for belongs_to relationships when doing nested forms with build()? Or do they??!!
+
+* In what order are validations processed? If I list a "presence" validation first, do I then not have to worry about nil values causing problems in tests for later validations?
+	"1) When I type rails s . What happens? I type rspec. What happens?  ie. What is the sequence of method calling?
+
+	2) What is this:
+			 Web Console is activated in the test environment, which is
+	usually a mistake. To ensure it's only activated in development
+	mode, move it to the development group of your Gemfile:
+
+			gem 'web-console', group: :development
+
+	If you still want to run it the test environment (and know
+	what you are doing), put this in your Rails application
+	configuration:
+
+			config.web_console.development_only = false"
+
+* For the clickbait validation, how would we check to see whether the title included a number (as in: Top [number])?
+	everything about form_for

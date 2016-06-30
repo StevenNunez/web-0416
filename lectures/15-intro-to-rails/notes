@@ -1,0 +1,20 @@
+You made it to rails!
+vs
+  students-rails live
+  rails g scaffold
+  students, name: email:, class_name:
+
+Rails is a framework?
+Learning how to use someone elses code
+Benefiting from a huge community. AMAZING DOCUMENTATION!
+
+Start at the routes
+Controllers, Models, and Migrations
+Do tour of scaffolded app.
+
+Start new App
+Shirt App
+Commit new app, show diff each time.
+Give details on the folders and what they do
+Create Home controller
+RandomShirtController

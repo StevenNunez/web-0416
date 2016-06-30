@@ -1,0 +1,37 @@
+Where can you use aggregate functions without SQL exploding? 
+
+What is yields purpose? 
+	I still havent seen any program where we can create a yield.
+
+What is last_insert_rowid()? 
+	(from the db call that returns ID of last row)
+
+How does sort_by work? 
+	Does it require a hash to sort on? 
+	When should I use it over regular sort?
+
+When should I use or-equals? (||=)
+
+In config/environment.rb: 
+	What's the general order between gems, 
+		bundler, and require-relative? 
+	Within require-relative, what's the necessary order of the 
+		files to make sure that everything runs smoothly?
+
+*I'm confused about how to use metaprogramming to 
+	dynamically assign attr accessors. 
+	In the lab, even though we were inheriting a way to 
+	dynamically assign the accessors from the super, 
+		we were required to write the exact same code/method 
+			in the child class for the accessors to work. 
+	Why is this the case? Can't it just steal the method from super?
+
+What's the best strategy for writing text to the middle of a file using File I/O?
+
+How do I use git?
+How do I use pry properly?
+In the Dynamic ORM lab/readings, why do we not have to escape/sanitize the input to the database calls?
+If I define some helper methods to be used for a class or instance method, should I define the helper method within the class or outside of it? 
+What is "here doc"?
+What is Rake?
+$: << '.' ?????????

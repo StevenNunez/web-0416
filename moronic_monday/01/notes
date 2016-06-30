@@ -1,0 +1,31 @@
+OO
+* How can I instantiate an object with a name within a class method?
+
+* Why do we use a attr accessor :name and not reader since we initialized with a name
+
+* I keep putting doing class variables versus self by trial and error. Can we review when to use each?
+
+* I'm still a little confused about the following situation: I make a attr_accessor (e.g. :height) and can call it inside of other methods by just saying height and not having to put self.height. However, in some instances, I have to use self.height and not just height or it won't work correctly, I believe it's only when using the self.height= method inside of another method, I think ... What's up with that? What's a good way to remember? Am I just better off using self.height all the time?
+
+* What's the order you recommend for our classes again? Attr accessors, extend/includes, constants/class vars, public methods, private methods? Something like that?
+
+When you initialize with @name = name, why do you then also need to include an attr_accessor for name? Isn't that redundant? Or do you just need to include an attr_writer?
+If Ruby doesn't have static methods, what IS a class method?
+
+yield
+what is the advantage of using yield?
+What defines the block "yield" calls back to?
+Last step of your Star Wars code-along: blocks and yield? Can you review?
+I keep thinking I get yield when I see it in a really simple example between two methods, but then I realize I don't get it as well as I should when I see examples like we did on Friday. Can you maybe paraphrase yield in a few ways in human language and then go through another simple example between 2 and between 3 methods to help clarify? THANKS.
+yield. just... yield
+
+modules and Inheritance
+what is the difference between include and extend?
+when should i use a super class vs a module and what is the difference between them?
+Can you inherit from multiple classes?
+
+misc
+Is there a way to jump (cd) to a certain folder in your terminal that's not in the directory you're already in? For example from your home directory to a folder in Development
+Does it matter what order our require statements go in when we're writing our environment file?
+Controlling loops on the bottom of a begin end block? How does this work?
+what is the point of a lambda (ok if we are going to get to it later)

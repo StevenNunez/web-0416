@@ -1,0 +1,18 @@
+Joins
+  Inner vs Outer
+  Left V Right
+Aggregate functions
+
+SELECT name 
+
+Modeling a domain
+  Belongs to
+  has many
+  many to many
+
+SELECT *
+FROM artists
+INNER JOIN fans
+ON artists.id = fans.artist_id
+INNER JOIN albums
+ON artists.id = albums.artist_id

@@ -1,0 +1,2 @@
+curl https://gist.githubusercontent.com/StevenNunez/1df2da72168f9c33abe3/raw/81abd03d0acfc696fb3a358f964d7bc1201175cd/seed.sql > seed.sql
+sqlite3 chinook.db -init seed.sql -cmd .tables

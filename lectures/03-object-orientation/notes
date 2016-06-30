@@ -1,0 +1,14 @@
+Everything is an object
+  Sending messages
+  Desugared message passing with arguments
+Creating new objects
+  Object.new
+  defining methods
+  calling other methods
+    self brief intro
+  passing arguments, preserving state
+    Instance Variables
+Using the Class.new `class`
+attr_reader, attr_writer
+Class Methods
+Constants and class variables

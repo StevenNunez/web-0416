@@ -1,0 +1,26 @@
+JavaScript OO language
+  
+Won't be covering the mechanics of stuff like for loops.
+Max use of me and the team. I could be wrong, if you don't understand 
+something I expect you to solve by googling, bring it up.
+
+functions
+  arity
+  return values
+  First class functions
+    callbacks
+  arguments
+
+literals hashes
+  data
+  nested data
+
+methods
+  this
+
+returning objects from functions
+  closures
+  hoisting
+
+----
+DOM

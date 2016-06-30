@@ -1,0 +1,10 @@
+Learn how to share code between classes
+  Learn how to use inheritance
+  Learn how to use modules
+Learn about the benefits of doing this
+Learn about why it's actually kind of terrible
+
+Learn which Ruby methods are called when you inherit or
+include code (Sets us up for metaprogramming).
+
+Other uses of Modules

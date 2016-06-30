@@ -1,0 +1,78 @@
+SQL history at IBM 
+  1974 called SEQUEL Structured English QUEry Language
+Purpose of SQL
+Relating Data
+Normalization
+Why we're using SQLite
+http://howfuckedismydatabase.com/
+
+SWBATS
+  Read data from a table
+  Select specific elements based on a value
+  Insert Data 
+  Update Data
+  Delete Data
+  Aggregate Functions
+  Relate data between 2 tables
+  Group data
+  Sort grouped data
+
+Connections
+  Discussion
+    You're interacting with Some database whenever you use the web.
+    What kind of data do you think is searched for when you see your posts on Facebook?
+    What kind of data is searched when you enter your debit card into an ATM?
+Concepts
+  Data can be stored in a binary format, and read by a program
+  That program has a language you use to search the data
+  Structuring Data
+    Uniqueness: The ID field.
+  A command runs once and finishes
+  Connecting to a Database with Ruby.
+
+  CREATE TABLE COMPANY(
+      ID INTEGER PRIMARY KEY   AUTOINCREMENT,
+      NAME           TEXT      NOT NULL,
+      AGE            INT       NOT NULL,
+      ADDRESS        CHAR(50),
+      SALARY         REAL
+  );
+
+  INSERT INTO table_name (column1,column2,column3,...)
+  VALUES (value1,value2,value3,...);
+
+  UPDATE table_name
+  SET field=value, field=value
+  WHERE field=value
+
+  DELETE FROM table_name WHERE field=value
+
+
+Challenges
+  How would you return all of the rows in the artists table?
+    SELECT * FROM artists;
+  How would you select and artist with the name "Black Eyed Peas"
+    SELECT * FROM artists WHERE name="Black Eyed Peas";
+    SELECT * FROM artists WHERE name LIKE "%B%"; for like
+  How would you create a table named 'fans' with an autoincrementing ID that's a primary key and a name field of type text
+  CREATE TABLE fans(
+  id INTEGER PRIMARY KEY AUTOINCREMENT
+  name TEXT)
+
+  How would you alter the fans table to have a artist_id column type integer?
+    ALTER TABLE fans 
+    ADD COLUMN artist_id INTEGER;
+  How would you add yourself as a fan of the Black Eyed Peas? 169
+    INSERT INTO fans (name, artist_id) VALUES ("BEEF", 169)
+  How would you update your name to be your wu-tang name? name http://www.mess.be/inickgenwuname.php
+  How would you return students that are not fans of the black eyed peas. Find Black Eyed Peas by name
+
+  require 'sqlite3'
+  db = SQLite3::Database.new('my_database.db')
+  db.results_as_hash = true
+  p db.execute('SELECT * FROM artists')
+
+  query = <<-SQL
+
+  SQL
+

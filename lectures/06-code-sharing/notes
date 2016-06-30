@@ -1,0 +1,6 @@
+class Picture
+  location, name, resolution
+class Video
+  location, name, resolution
+class Audio
+  location, name

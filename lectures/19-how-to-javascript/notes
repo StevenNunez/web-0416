@@ -1,0 +1,23 @@
+Issues with JavaScript
+
+Review
+  Scope
+  functions 
+    return values
+    functions as objects
+  closures, they are things
+
+Build an example app
+  Superheros
+    name, super power, description
+  / -> form for adding new ones
+  /superheros
+  /superheros/7
+
+New Stuff
+  Making new objects
+  new constructor functions, prototypes
+  this, this, this
+
+  $('form').on('submit', superHeroController.submitForm)
+

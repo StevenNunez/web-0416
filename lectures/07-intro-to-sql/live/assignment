@@ -1,0 +1,7 @@
+How would you return all of the rows in the artists table?
+How would you select an artist with the name "Black Eyed Peas"?
+How would you create a table named 'fans' with
+  * an id field that autoincrements and is a primary key
+  * a name field of type text
+How would you alter the fans table to have a artist_id column type integer?
+How would you add yourself as a fan of the Black Eyed Peas? 169

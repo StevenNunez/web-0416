@@ -1,0 +1,17 @@
+Can we review control flow in JS? Lots of trouble with hoisting.
+
+In the ATM lab, I had to move my definition of balance inside the main function. It wouldn't work when I defined it globally. Why wouldn't defining it globally work?
+
+*I feel like I don't truly understand 'event'. Specifically, event.preventDefault() and event.stopPropagation()
+
+*Still having trouble with 'this' . How does it inherit its value. Is there a hierarchy when its nested within functions?
+
+When a page loads and runs all of your Javascript functions, why does it also access all the 'on click' listeners? Those elements or buttons haven't actually been clicked
+
+What's the difference between a JavaScript object and a hash/map?
+
+"- var $paragraph = $(“<p>Hello!</p>”)
+- var paragraph = $(“<p>Hello!</p>”)
+When would you choose one over the other? Can you give some examples."
+
+Debugger madness

@@ -1,0 +1,27 @@
+modules
+	for namespaces
+Make super unabsract version
+
+db.table_info('artists')
+
+class HacktiveRecord::Base
+	def self.connection
+		@@connection ||= begin 
+			connection = SQLite::Database.new("db/development.db")
+			connection.results_as_hash = true
+			connection
+		end
+  end
+
+	def self.all
+		queue = <<-SQL
+			SELECT *
+			FROM #{table_name}
+		SQL
+		connection.execute(queue)
+	end
+
+  def self.table_name
+		self.to_s.downcase + "s"
+  end
+end
